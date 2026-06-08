@@ -11,6 +11,7 @@ def procure_pela_chave(caixa_principal):
             elif item.e_uma_caixa():
                 print("Achei a chave!")
                 return
+            
 #%%
 def procure_pela_chave(caixa):
     for item in caixa:
@@ -20,3 +21,8 @@ def procure_pela_chave(caixa):
         elif item.e_uma_chave():
             print("Achei a chave!")
             return
+        
+#%%
+def regressiva(i):
+    print(i)
+    regressiva(i-1)
