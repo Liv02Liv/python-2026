@@ -1,6 +1,6 @@
 #%%
-def procure_pela_chave(caixa_principal):
-    pilha = caixa_principal.crie_uma_pilha_para_buscar()
+def procure_pela_chave(caixa_principal): # pyright: ignore[reportMissingParameterType, reportUnknownParameterType]
+    pilha = caixa_principal.crie_uma_pilha_para_buscar() # pyright: ignore[reportUnknownMemberType]
     
     while pilha:
         caixa = pilha.pop()
