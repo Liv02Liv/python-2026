@@ -20,3 +20,15 @@ for resultado in exames:
 
     else:
         print("Normal")
+
+#%%
+# Identificação de pacientes prioritários 
+
+idades = [22, 67, 81, 45]
+
+for idade in idades:
+    if idade >= 60:
+        print("Prioritário")
+
+    else:
+        print("Atendimento comum")
