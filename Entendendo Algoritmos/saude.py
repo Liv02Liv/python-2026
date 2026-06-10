@@ -8,3 +8,15 @@ for temp in temperaturas:
     
     else:
         print("Temperatura Normal")
+
+#%%
+# Organização de exames 
+
+exames = [120, 98, 140, 85]
+
+for resultado in exames:
+    if resultado > 100:
+        print("Alterado")
+
+    else:
+        print("Normal")
