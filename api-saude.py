@@ -2,11 +2,20 @@
 # API de medicamentos 
 
 import requests
+import json
 
-medicamento = "paracetamol"
+medicamento = "ibuprofen"
 
-url = f"URL_DA_API/{medicamento}"
+url = (
+    "https://api.fda.gov/drug/label.json"
+    f"?search=openfda.generic_name:{medicamento}&limit=1"
+)
 
-dados = requests.get(url)
+response = requests.get(url)
 
-print(dados.json())
+if response.status_code == 200:
+    dados = response.json()
+    print(json.dumps(dados, indent=4))
+else:
+    print(response.text)
+
