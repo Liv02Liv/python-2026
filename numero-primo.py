@@ -10,3 +10,17 @@ if numero > 1:
         print(f"{numero} é um número primo.")
 else:
     print("Números menores que 2 não são primos.")
+
+#%%
+
+n = int(input())
+
+count = 0
+
+for i in range(2, n):
+    if n % i == 0:
+        count += 1
+if count == 0:
+    print("Primo")
+else:
+    print("Não Primo")
