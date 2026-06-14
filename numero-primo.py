@@ -24,3 +24,24 @@ if count == 0:
     print("Primo")
 else:
     print("Não Primo")
+
+#%%
+#Verifique se um número é primo, composto ou nenhum dos dois.
+
+n = int(input())
+count = 0
+t = 2
+
+while t * t <= n:
+    if n % t == 0:
+        count += 0
+        if t != n // t:
+            count += 1
+
+    t += 1
+if n < 2:
+    print("Nenhum número primo e composto.")
+elif count == 2:
+    print("Número Primo")
+else:
+    print("Número Composto")
