@@ -1,0 +1,188 @@
+"Item 
+Quantidad
+e Status 
+Localizaçã
+o 
+Mínim
+o 
+Máxim
+o 
+Chave de fenda (kit) 0 Indisponível C1E1P1 1 4 
+Chave Philips (kit) 3 Disponível C1E1P2 1 4 
+Chave combinada (jogo) 4 Disponível C1E1P3 1 4 
+Chave inglesa 1 
+Estoque de 
+Segurança C1E1P4 2 8 
+Chave ajustável (grifo) 2 
+Estoque de 
+Segurança C1E1P5 2 6 
+Alicate universal 11 Disponível C1E2P1 3 8 
+Alicate de bico 2 
+Estoque de 
+Segurança C1E2P2 2 5 
+Alicate de corte 2 
+Estoque de 
+Segurança C1E2P3 2 5 
+Torquímetro 3 Disponível C1E2P4 1 3 
+Jogo de soquetes 
+(catraca) 6 Disponível C1E2P5 2 5 
+Chave de roda -1 
+Estoque de 
+Segurança C1E3P1 5 8 
+Martelo de bola 2 Disponível C1E3P2 1 3 
+Martelo de borracha 3 Disponível C1E3P3 1 3 
+Macaco hidráulico 3 Disponível C1E3P4 1 3 
+Triângulo de segurança 2 
+Estoque de 
+Segurança C1E3P5 2 5 
+Extintor de incêndio 2 
+Estoque de 
+Segurança C1E4P1 2 4 
+Óculos de proteção 7 Fazer Pedido C1E4P2 5 15 
+Luvas de raspa 9 
+Estoque de 
+Segurança C1E4P3 10 30 
+Macacão mecânico 13 Disponível C1E4P4 4 12 
+Capacete 3 Fazer Pedido C1E4P5 2 8 
+Compressor de ar 1 
+Estoque de 
+Segurança C1E5P1 1 2 
+Pistola de ar comprimido 4 Disponível C1E5P2 2 4 
+Parafusadeira elétrica 3 Disponível C1E5P3 1 3 
+Furadeira de impacto 3 Disponível C1E5P4 1 3 
+Esmerilhadeira angular 4 Disponível C1E5P5 1 3 
+Multímetro digital 6 Disponível C2E1P1 2 4 
+Scanner automotivo 5 Disponível C2E1P2 1 3 
+Voltímetro automotivo 1 
+Estoque de 
+Segurança C2E1P3 1 3 
+Teste de compressão 3 Disponível C2E1P4 1 2 
+Medidor de pressão de 
+pneus 4 Disponível C2E1P5 2 5 
+Óleo de motor 
+(lubrificante) - 1L 0 Indisponível C2E2P1 30 80 
+Óleo de transmissão - 1L 21 Disponível C2E2P2 10 30 
+Fluido de freio - 500ml 7 Fazer Pedido C2E2P3 6 15 
+Líquido de arrefecimento 
+- 5L 20 Disponível C2E2P4 8 20 
+Graxa lubrificante - 400g 8 Disponível C2E2P5 4 12 "
+"Desengripante (WD-40) - 
+300ml 30 Disponível C2E3P1 12 30 
+Limpador de contatos 
+elétricos 16 Disponível C2E3P2 6 15 
+Desengraxante - 5L 9 Disponível C2E3P3 3 8 
+Pano multiuso (pacote) 7 Disponível C2E3P4 4 10 
+Escova de aço 10 Disponível C2E3P5 5 15 
+Filtro de óleo - diversos 2 
+Estoque de 
+Segurança C2E4P1 15 40 
+Filtro de ar do motor 0 Indisponível C2E4P2 10 30 
+Filtro de combustível -2 
+Estoque de 
+Segurança C2E4P3 8 20 
+Filtro de cabine 8 Disponível C2E4P4 5 15 
+Pastilha de freio (jogo) 7 Fazer Pedido C2E4P5 5 15 
+Disco de freio (par) 5 Fazer Pedido C2E5P1 4 10 
+Cilindro de roda 6 Disponível C2E5P2 3 8 
+Cilindro mestre 6 Disponível C2E5P3 2 5 
+Lona de freio (conjunto) 10 Disponível C2E5P4 5 12 
+Amortecedor dianteiro 
+(par) 4 Fazer Pedido C2E5P5 3 8 
+Amortecedor traseiro 
+(par) 2 
+Estoque de 
+Segurança C3E1P1 3 8 
+Mola helicoidal (par) 4 Disponível C3E1P2 2 5 
+Coxim do amortecedor 2 
+Estoque de 
+Segurança C3E1P3 5 15 
+Barra estabilizadora 0 Indisponível C3E1P4 2 5 
+Terminal de direção -1 
+Estoque de 
+Segurança C3E1P5 5 12 
+Pivô de suspensão 7 Disponível C3E2P1 5 12 
+Bieleta de suspensão 1 
+Estoque de 
+Segurança C3E2P2 5 12 
+Bucha de suspensão (kit) 17 Disponível C3E2P3 8 20 
+Correia dentada 
+(sincronismo) 4 
+Estoque de 
+Segurança C3E2P4 4 10 
+Correia do alternador 6 Fazer Pedido C3E2P5 5 12 
+Correia poly-v 2 
+Estoque de 
+Segurança C3E3P1 4 10 
+Tensionador de correia 4 Disponível C3E3P2 2 6 
+Bomba d'água 3 Fazer Pedido C3E3P3 2 6 
+Bomba de combustível 1 
+Estoque de 
+Segurança C3E3P4 2 5 
+Bomba de óleo 2 Fazer Pedido C3E3P5 1 4 
+Vela de ignição (jogo) 7 
+Estoque de 
+Segurança C3E4P1 10 25 
+Cabo de vela (jogo) 10 Disponível C3E4P2 5 12 
+Bobina de ignição 3 
+Estoque de 
+Segurança C3E4P3 4 10 
+Bateria automotiva 60Ah 4 Fazer Pedido C3E4P4 3 8 
+Alternador 
+(recondicionado) 1 
+Estoque de 
+Segurança C3E4P5 2 4 "
+"Motor de arranque 
+(recond.) 4 Disponível C3E5P1 2 4 
+Sensor de rotação 3 
+Estoque de 
+Segurança C3E5P2 3 6 
+Sensor de temperatura 5 Disponível C3E5P3 3 6 
+Lâmpada de farol H4 
+(par) 2 
+Estoque de 
+Segurança C3E5P4 8 20 
+Lâmpada de seta (unid) 32 Disponível C3E5P5 10 25 
+Fusível (kit sortido) 5 
+Estoque de 
+Segurança C4E1P1 5 12 
+Relé universal 4/5 pinos 15 Disponível C4E1P2 6 15 
+Chicote elétrico (metro) 8 Disponível C4E1P3 5 15 
+Palheta do limpador (par) 0 Indisponível C4E1P4 8 20 
+Espelho retrovisor 
+universal 2 
+Estoque de 
+Segurança C4E1P5 2 5 
+Maçaneta externa 
+universal 6 Disponível C4E2P1 2 6 
+Tampa do combustível 6 Disponível C4E2P2 2 6 
+Cera automotiva (500g) 11 Disponível C4E2P3 3 8 
+Shampoo para carros 
+(5L) 4 Disponível C4E2P4 2 6 
+Pano de microfibra 
+(pacote) 34 Disponível C4E2P5 15 40 
+Aditivo de radiador (1L) 2 
+Estoque de 
+Segurança C4E3P1 8 20 
+Aditivo de combustível 16 Disponível C4E3P2 10 25 
+Tampa de válvula (unid) 19 Disponível C4E3P3 10 25 
+Junta do cabeçote 3 Disponível C4E3P4 2 5 
+Parafusos diversos (kit) 4 Disponível C4E3P5 2 6 
+Porcas e arruelas (kit) 4 Disponível C4E4P1 2 6 
+Abraçadeira de nylon 
+(100 unid) 4 
+Estoque de 
+Segurança C4E4P2 4 10 
+Fita isolante (rolo) 16 Disponível C4E4P3 10 25 
+Fita crepe (rolo) 18 Disponível C4E4P4 5 12 
+Cola de vedação 
+(silicone) 4 
+Estoque de 
+Segurança C4E4P5 8 20 
+Pneu (unidade) - 
+medidas comuns 6 Fazer Pedido C4E5P1 4 12 
+Câmara de ar 10 Disponível C4E5P2 4 10 
+Válvula de pneu (unid) 0 Indisponível C4E5P3 30 60 
+Peso de balanceamento 
+(kit) 2 Disponível C4E5P4 1 3 
+Calço de roda (par) 0 Indisponível C4E5P5 4 10 
+ "
