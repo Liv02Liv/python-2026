@@ -6,7 +6,7 @@ import csv
 
 reader = PdfReader("Item.pdf")
 
-with open("output.csv", "w",
+with open("Item.csv", "w",
             newline="") as f:
 
     writer = csv.writer(f)
