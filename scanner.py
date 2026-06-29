@@ -1,10 +1,6 @@
-
 import cv2
-import os
 
-pasta = os.path.dirname(os.path.abspath(__file__))
-caminho = os.path.join(pasta, "c0c174250bffd16cb8f625ee9c97787d.jpg")
-img = cv2.imread("c0c174250bffd16cb8f625ee9c97787d.jpg")
+img = cv2.imread("shema.jpg")
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
@@ -18,3 +14,5 @@ scan = cv2.adaptiveThreshold(
 cv2.namedWindow("Scanned", cv2.WINDOW_NORMAL)
 cv2.imshow("Scanned", scan)
 cv2.waitKey(0)
+
+
