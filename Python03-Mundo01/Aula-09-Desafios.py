@@ -1,0 +1,33 @@
+#%%
+#Crie um programa que leia o nome completo de uma pessoa e mostre:
+# – O nome com todas as letras maiúsculas e minúsculas.
+# – Quantas letras ao todo (sem considerar espaços).
+# – Quantas letras tem o primeiro nome.
+
+print("DESAFIO 022")
+
+nome = str(input("Digite seu nome completo: ")).strip()
+
+print("Analisando seu nome...")
+print(f"Seu nome em maiúsculas é {nome.upper()}")
+print(f"Seu nome em minúsculas é {nome.lower()}")
+print(f"Seu nome tem ao todo {len(nome) - nome.count(' ')}")
+print(f"Seu primeiro nome tem {nome.find(' ')} letras")
+
+#%%
+#Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados.
+
+print("DESAFIO 023")
+
+numero = int(input("Digite um numero: "))
+
+unidade = numero // 1 % 10
+dezena = numero // 10 % 10
+centena = numero // 100 % 10
+milhar = numero // 1000 % 10
+
+print(f"Analisando o número {numero}")
+print(f"Unidade: {unidade}")
+print(f"Dezena: {dezena}")
+print(f"Centena: {centena}")
+print(f"Milhar: {milhar}")

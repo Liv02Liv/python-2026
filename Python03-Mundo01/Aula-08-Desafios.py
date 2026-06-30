@@ -1,7 +1,8 @@
 #%%
 #Crie um programa que leia um número Real qualquer pelo 
 # teclado e mostre na tela a sua porção Inteira.
-#DESAFIO 016
+print("DESAFIO 016")
+
 from math import trunc  
 num = float(input("Digite um valor: "))
 print(f"O valor digitado foi {num} e a sua poção inteira é {trunc(num)}")
@@ -9,7 +10,7 @@ print(f"O valor digitado foi {num} e a sua poção inteira é {trunc(num)}")
 #%%
 #Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente 
 #de um triângulo retângulo. Calcule e mostre o comprimento da hipotenusa.
-#DESAFIO 017
+print("DESAFIO 017")
 
 co = float(input("Comprimento do cateto oposto: "))
 ca = float(input("Comprimento do cateto adjacente: "))
@@ -26,7 +27,7 @@ print(f"A hipotenusa vai medir {hi:.2f}")
 #%%
 # Faça um programa que leia um ângulo qualquer e 
 # mostre na tela o valor do seno, cosseno e tangente desse ângulo.
-#DESAFIO 018
+print("DESAFIO 018")
 
 from math import radians, sin, cos, tan
 
@@ -43,7 +44,8 @@ print(f"O ângulo de {angulo} tem a TANGENTE de {tangente:.2}")
 
 #Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, 
 # lendo o nome dos alunos e escrevendo na tela o nome do escolhido.
-#DESAFIO 019
+#%%
+print("DESAFIO 019")
 
 from random import choice
 
@@ -60,7 +62,7 @@ print(f"O aluno escolhido foi {sort}")
 #%%
 #O mesmo professor do desafio 19 quer sortear a ordem de apresentação de trabalhos dos alunos.
 #Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada.
-#DESAFIO 020
+print("DESAFIO 020")
 
 from random import shuffle
 
@@ -77,7 +79,7 @@ print(f"A ordem de apresentação será: {lista}")
 
 #%%
 #Faça um programa em Python que abra e reproduza o áudio de um arquivo MP3.
-#DESAFIO 021
+print("DESAFIO 021")
 
 import pygame
 
