@@ -31,3 +31,11 @@ print(f"Unidade: {unidade}")
 print(f"Dezena: {dezena}")
 print(f"Centena: {centena}")
 print(f"Milhar: {milhar}")
+
+#%%
+#Crie um programa que leia o nome de uma cidade diga se ela começa ou não com o nome “SANTO”.
+
+print("DESAFIO 024")
+
+cidade = str(input("Em que cidade você nasceu? ")).strip()
+print(cidade[:5].upper() == "SANTO")
