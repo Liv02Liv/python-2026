@@ -8,3 +8,19 @@ df = pd.read_csv("coffee_shop_sales.csv", sep=",")
 
 df.to_sql("coffee", engine, if_exists = "replace", index = False)
 
+#%%
+import sqlite3
+import pandas as pd
+
+# Conecta ao banco existente
+conexao = sqlite3.connect("Dados.db")
+
+# Lê o arquivo CSV
+df = pd.read_csv("marathon-data.csv")
+
+# Cria a tabela e insere os dados
+df.to_sql("marathon", conexao, if_exists="replace", index=False)
+
+conexao.close()
+
+print("Tabela marathon criada com sucesso!")
