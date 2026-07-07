@@ -36,3 +36,17 @@ if velocidade > 80:
     print(f"Você deve pagar uma multa de R${multa:.2f}!")
 else:
     print("Tenha um bom dia! Dirija com segurança!")
+
+#%%
+#Crie um programa que leia um número inteiro e mostre na tela se ele 
+#é PAR ou ÍMPAR.
+
+print("DESAFIO 030")
+
+numero = int(input("Me diga um número qualquer: "))
+resultado = numero % 2
+
+if resultado == 0:
+    print(f"O número {numero} é PAR")
+else:
+    print(f"O número {numero} é ÍMPAR")
