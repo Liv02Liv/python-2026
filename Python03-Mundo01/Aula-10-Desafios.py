@@ -56,6 +56,8 @@ else:
 #Calcule o preço da passagem, cobrando R$0,50 por Km para viagens 
 #de até 200Km e R$0,45 parta viagens mais longas.
 
+print("DESAFIO 031")
+
 distancia = float(input("Qual é a distância da sua viagem? "))
 print(f"Você está prestes a começar uma viagem de {distancia}Km.")
 
@@ -65,3 +67,20 @@ else:
     preço = distancia * 0.45
 
 print(f"E o preço da sua passagem será de R${preço}")
+
+#%%
+#Faça um programa que leia um ano qualquer e mostre se ele é bissexto.
+
+print("DESAFIO 032")
+
+from datetime import date
+
+ano = int(input("Que ano quer analisar? Coloque 0 para analsar o ano atual: "))
+
+if ano == 0:
+    ano = date.today().year
+
+if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
+    print(f"O ano {ano} é BISSEXTO")
+else:
+    print(f"O ano {ano} não é BISSEXTO")
