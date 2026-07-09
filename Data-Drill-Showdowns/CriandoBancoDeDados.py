@@ -24,3 +24,20 @@ df.to_sql("marathon", conexao, if_exists="replace", index=False)
 conexao.close()
 
 print("Tabela marathon criada com sucesso!")
+
+#%%
+import sqlite3
+import pandas as pd
+
+# Conecta ao banco existente
+conexao = sqlite3.connect("Dados.db")
+
+# Lê o arquivo CSV
+df = pd.read_csv("hotel_bookings.csv")
+
+# Cria a tabela e insere os dados
+df.to_sql("hotel", conexao, if_exists="replace", index=False)
+
+conexao.close()
+
+print("Tabela hotel criada com sucesso!")

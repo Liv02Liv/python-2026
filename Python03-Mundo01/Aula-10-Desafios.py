@@ -1,7 +1,7 @@
 #%%
 #Escreva um programa que faça o computador “pensar” em um número inteiro entre 0 e 5 e 
-# peça para o usuário tentar descobrir qual foi o número escolhido pelo computador. 
-# O programa deverá escrever na tela se o usuário venceu ou perdeu.
+#peça para o usuário tentar descobrir qual foi o número escolhido pelo computador. 
+#O programa deverá escrever na tela se o usuário venceu ou perdeu.
 
 print("DESAFIO 028")
 
@@ -148,4 +148,3 @@ if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
 
 else:
     print("Os segmentos acima NÂO PODEM FOORMAR triângulos!") 
-    
