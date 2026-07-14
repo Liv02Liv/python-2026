@@ -2,7 +2,7 @@
 import pandas as pd 
 from sqlalchemy import create_engine
 
-engine = create_engine("sqlite:///Dados.db")
+engine = create_engine("sqlite:///dados.db")
 
 df = pd.read_csv("coffee_shop_sales.csv", sep=",")
 
@@ -13,7 +13,7 @@ import sqlite3
 import pandas as pd
 
 # Conecta ao banco existente
-conexao = sqlite3.connect("Dados.db")
+conexao = sqlite3.connect("dados.db")
 
 # Lê o arquivo CSV
 df = pd.read_csv("marathon-data.csv")
@@ -30,7 +30,7 @@ import sqlite3
 import pandas as pd
 
 # Conecta ao banco existente
-conexao = sqlite3.connect("Dados.db")
+conexao = sqlite3.connect("dados.db")
 
 # Lê o arquivo CSV
 df = pd.read_csv("hotel_bookings.csv")
@@ -47,7 +47,7 @@ import sqlite3
 import pandas as pd
 
 # Conecta ao banco existente
-conexao = sqlite3.connect("Dados.db")
+conexao = sqlite3.connect("dados.db")
 
 # Lê o arquivo CSV
 df = pd.read_csv(r"pizza_sales\price_history.csv")
@@ -64,7 +64,7 @@ import sqlite3
 import pandas as pd
 
 # Conecta ao banco existente
-conexao = sqlite3.connect("Dados.db")
+conexao = sqlite3.connect("dados.db")
 
 # Lê o arquivo CSV
 df = pd.read_csv(r"pizza_sales\transactions.csv")
