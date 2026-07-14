@@ -41,3 +41,37 @@ df.to_sql("hotel", conexao, if_exists="replace", index=False)
 conexao.close()
 
 print("Tabela hotel criada com sucesso!")
+
+#%%
+import sqlite3
+import pandas as pd
+
+# Conecta ao banco existente
+conexao = sqlite3.connect("Dados.db")
+
+# Lê o arquivo CSV
+df = pd.read_csv(r"pizza_sales\price_history.csv")
+
+# Cria a tabela e insere os dados
+df.to_sql("price_history", conexao, if_exists="replace", index=False)
+
+conexao.close()
+
+print("Tabela price_history criada com sucesso!")
+
+#%%
+import sqlite3
+import pandas as pd
+
+# Conecta ao banco existente
+conexao = sqlite3.connect("Dados.db")
+
+# Lê o arquivo CSV
+df = pd.read_csv(r"pizza_sales\transactions.csv")
+
+# Cria a tabela e insere os dados
+df.to_sql("transactions", conexao, if_exists="replace", index=False)
+
+conexao.close()
+
+print("Tabela transactions criada com sucesso!")
