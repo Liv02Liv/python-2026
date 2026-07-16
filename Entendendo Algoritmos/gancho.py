@@ -9,22 +9,6 @@ pais["b"] = "inicio"
 pais["fim"] = None
 
 #%%
-
-nodo = ache_no_custo_mais_baixo(custos) 
-
-custo = custos[nodo] 
-
-vizinhos = grafo[nodo] 
-
-for n in vizinhos.keys(): 
-    novo_custo = custo + vizinhos[n] if custos[n] > novo_custo: 
-    custos[n] = novo_custo pais[n] = nodo 
-    
-processados.append(nodo) 
-    
-nodo = ache_no_custo_mais_baixo(custos)
-
-#%%
 def ache_no_custo_mais_baixo(custos): 
     custo_mais_baixo = float("inf") 
     nodo_custo_mais_baixo = None 
