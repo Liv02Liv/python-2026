@@ -75,3 +75,21 @@ df.to_sql("transactions", conexao, if_exists="replace", index=False)
 conexao.close()
 
 print("Tabela transactions criada com sucesso!")
+
+#%%
+
+import sqlite3
+import pandas as pd
+
+# Conecta ao banco existente
+conexao = sqlite3.connect("dados.db")
+
+# Lê o arquivo CSV
+df = pd.read_csv(r"grocery_store\grocery_transactions.csv")
+
+# Cria a tabela e insere os dados
+df.to_sql("grocery", conexao, if_exists="replace", index=False)
+
+conexao.close()
+
+print("Tabela grocery criada com sucesso!")
