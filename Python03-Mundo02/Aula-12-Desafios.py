@@ -176,3 +176,15 @@ if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
         print("ISÓSCELES!")
 else:
     print("Os segmentos acima NÃO PODEM FORMAR triângulo")
+
+#%%
+
+#Exercício Python 43: Desenvolva uma lógica que leia o peso e a altura de uma pessoa, 
+#calcule seu Índice de Massa Corporal (IMC) e mostre seu status, de acordo com a tabela abaixo:
+#– IMC abaixo de 18,5: Abaixo do Peso
+#– Entre 18,5 e 25: Peso Ideal
+#– 25 até 30: Sobrepeso
+#– 30 até 40: Obesidade
+#– Acima de 40: Obesidade Mórbida
+
+print("DESAFIO 043")
