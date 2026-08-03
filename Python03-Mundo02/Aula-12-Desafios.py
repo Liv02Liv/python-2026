@@ -246,3 +246,10 @@ else:
     print("OPÇÃO INVÁLIDA de pagamento, tente novamente!")
 
 print(f"Sua compra de R${preço:.2f} vai custar R${total:.2f} no final.")
+
+
+#%%
+
+#Exercício Python 45: Crie um programa que faça o computador jogar Jokenpô com você.
+
+print("DESAFIO 045\n")
