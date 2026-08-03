@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("9a97ba7494d49777b218f38f4773b3eb.jpg")
+img = cv2.imread("f1dedfb31d3a4366dd8084ee9329b71e.jpg")
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
