@@ -253,3 +253,59 @@ print(f"Sua compra de R${preço:.2f} vai custar R${total:.2f} no final.")
 #Exercício Python 45: Crie um programa que faça o computador jogar Jokenpô com você.
 
 print("DESAFIO 045\n")
+
+from random import randint
+from time import sleep
+
+itens = ("Pedra", "Papel", "Tesoura")
+computador = randint(0, 2)
+
+print("""Suas opções:
+[0] PEDRA
+[1] PAPEL 
+[2] TESOURA\n""")
+
+jogador = int(input("Qual é a sua jogada? "))
+
+print("JO")
+sleep(1)
+print("KEN")
+sleep(1)
+print("PO!!!\n")
+
+print("-=" * 10)
+
+print(f"Computador jogou {itens[computador]}")
+print(f"Jogador jogou {itens[jogador]}")
+
+print("-=" * 10)
+
+if computador == 0:
+    if jogador == 0:
+        print("\nEMPATE")
+    elif jogador == 1:
+        print("\nJOGADOR VENCE")
+    elif jogador == 2:
+        print("\nCOMPUTADOR VENCE")
+    else:
+        print("\nJOGADA INVÁLIDA!")
+
+if computador == 1:
+    if jogador == 0:
+          print("\nCOMPUTADOR VENCE")
+    elif jogador == 1:
+        print("\nEMPATE")
+    elif jogador == 2:
+        print("\nJOGADOR VENCE")
+    else:
+        print("\nJOGADA INVÁLIDA!")
+
+if computador == 2:
+    if jogador == 0:
+        print("\nJOGADOR VENCE")
+    elif jogador == 1:
+        print("\nCOMPUTADOR VENCE")
+    elif jogador == 2:
+        print("\nEMPATE")
+    else:
+        print("\nJOGADA INVÁLIDA!")
