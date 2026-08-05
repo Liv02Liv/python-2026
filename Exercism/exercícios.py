@@ -29,3 +29,13 @@ def elapsed_time_in_minutes(number_of_layers, elapsed_bake_time):
     """Return the total elapsed cooking time in minutes."""
     return preparation_time_in_minutes(number_of_layers) + elapsed_bake_time
 print(elapsed_time_in_minutes(3, 20))
+
+#%%
+
+a = 1
+
+while a <= 10:
+    a = a + a
+print(a)
+
+#%%
