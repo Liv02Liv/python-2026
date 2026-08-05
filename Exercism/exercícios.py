@@ -73,3 +73,9 @@ print(soma(2, 2, 2))
 print(soma(3, 3, 3))
 
 #%%
+nome = str(input("Digite seu nome: "))
+
+def boasvindas(nome):
+    return f"Seja-Bem-Vinda, {nome}!"
+
+print(boasvindas(nome))
