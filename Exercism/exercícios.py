@@ -63,3 +63,13 @@ def win(has_eaten_all_dots, power_pellet_active, touching_ghost):
     return  has_eaten_all_dots and not lose(power_pellet_active, touching_ghost)
 
 print(win(False, True, False))
+
+#%%
+
+def soma(a, b, c):
+    return a + b + c
+
+print(soma(2, 2, 2))
+print(soma(3, 3, 3))
+
+#%%
