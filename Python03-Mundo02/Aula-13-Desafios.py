@@ -21,3 +21,9 @@ for cont in range(10, -1, -1):
     print(cont)
     sleep(0.5)
 print("BUM ! BUM! POOOW!")
+
+#%%
+
+#Exercício Python 47: Crie um programa que mostre na tela todos os números pares que estão no intervalo entre 1 e 50.
+
+print("DESAFIO 047")
