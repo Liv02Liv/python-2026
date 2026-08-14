@@ -158,3 +158,19 @@ def fail_safe(temperature, neutrons_produced_per_second, threshold):
     return "DANGER" 
         
 print(fail_safe(1000, 30, 5000))
+
+#%%
+
+#(Black Jack)
+
+def value_of_card(card):
+    if card == "A":
+        return 1
+    elif card in ["J", "Q", "K"]:
+        return 10
+    else:
+        return int(card)
+
+print(value_of_card("K"))
+print(value_of_card("4"))
+print(value_of_card("A"))
