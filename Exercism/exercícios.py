@@ -203,3 +203,14 @@ def value_of_ace(card_one, card_two):
         
 print(value_of_ace("6", "K"))
 print(value_of_ace("7", "3"))
+
+def is_blackjack(card_one, card_two):
+    if card_one == "A" and card_two in ["10", "J", "Q", "K"]:
+        return True
+    elif card_two == "A" and card_one in ["10", "J", "Q", "K"]:
+        return True
+    else:
+        return False
+
+print(is_blackjack("A", "K"))
+print(is_blackjack("10", "9"))
