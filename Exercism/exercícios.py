@@ -221,3 +221,9 @@ def can_split_pairs(card_one, card_two):
 print(can_split_pairs("Q", "K"))
 print(can_split_pairs("10", "A"))
 
+def can_double_down(card_one, card_two):
+    total = value_of_card(card_one) + value_of_card(card_two)
+    return total in [9, 10, 11]
+
+print(can_double_down("A", "9"))
+print(can_double_down("10", "2"))
