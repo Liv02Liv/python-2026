@@ -189,3 +189,17 @@ def higher_card(card_one, card_two):
 print(higher_card("K", "10"))
 print(higher_card("4", "6"))
 print(higher_card("K", "A"))
+
+def value_of_ace(card_one, card_two):
+    if card_one == "A" or card_two == "A":
+        return 1
+
+    total = value_of_card(card_one) + value_of_card(card_two)
+
+    if total + 11 <= 21:
+        return 11
+    else:
+        return 1
+        
+print(value_of_ace("6", "K"))
+print(value_of_ace("7", "3"))
