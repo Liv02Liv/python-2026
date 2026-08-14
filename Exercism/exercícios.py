@@ -214,3 +214,10 @@ def is_blackjack(card_one, card_two):
 
 print(is_blackjack("A", "K"))
 print(is_blackjack("10", "9"))
+
+def can_split_pairs(card_one, card_two):
+    return value_of_card(card_one) == value_of_card(card_two)
+
+print(can_split_pairs("Q", "K"))
+print(can_split_pairs("10", "A"))
+
