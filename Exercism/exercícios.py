@@ -174,3 +174,18 @@ def value_of_card(card):
 print(value_of_card("K"))
 print(value_of_card("4"))
 print(value_of_card("A"))
+
+def higher_card(card_one, card_two):
+    value_one = value_of_card(card_one)
+    value_two = value_of_card(card_two)
+
+    if value_one > value_two:
+        return card_one
+    elif value_two > value_one:
+        return card_two
+    else:
+        return card_one, card_two
+        
+print(higher_card("K", "10"))
+print(higher_card("4", "6"))
+print(higher_card("K", "A"))
