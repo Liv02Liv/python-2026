@@ -4,3 +4,13 @@ def add_prefix_un(word):
     return "un" + word 
 print(add_prefix_un("happy"))
 print(add_prefix_un("manageable"))
+
+#%%
+
+def make_word_groups(vocab_words):
+    return " :: ".join(vocab_words).replace(" :: ", " :: " + vocab_words[0])
+    
+print(make_word_groups(['en', 'close', 'joy', 'lighten']))
+print(make_word_groups(['pre', 'serve', 'dispose', 'position']))
+print(make_word_groups(['auto', 'didactic', 'graph', 'mate']))
+print(make_word_groups(['inter', 'twine', 'connected', 'dependent']))
