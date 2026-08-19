@@ -27,3 +27,13 @@ def remove_suffix_ness(word):
 
 print(remove_suffix_ness("heaviness"))
 print(remove_suffix_ness("sadness"))
+
+#%%
+
+def adjective_to_verb(sentence, index):
+    words = sentence.split()
+    word = words[index].strip(".")
+    return word + "en"
+
+print(adjective_to_verb("I need to make that bright.", -1))
+print(adjective_to_verb("It got dark as the sun set.", 2))
