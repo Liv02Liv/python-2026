@@ -14,3 +14,16 @@ print(make_word_groups(['en', 'close', 'joy', 'lighten']))
 print(make_word_groups(['pre', 'serve', 'dispose', 'position']))
 print(make_word_groups(['auto', 'didactic', 'graph', 'mate']))
 print(make_word_groups(['inter', 'twine', 'connected', 'dependent']))
+
+#%%
+
+def remove_suffix_ness(word):
+    word = word[:-4]
+    
+    if word[-1] == "i":
+        word = word.replace("i", "y")
+        
+    return word     
+
+print(remove_suffix_ness("heaviness"))
+print(remove_suffix_ness("sadness"))
