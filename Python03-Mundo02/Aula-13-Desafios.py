@@ -31,3 +31,10 @@ print("DESAFIO 047")
 for n in range(2, 51, 2):
     print(n, end=" ")
 print("\nAcabou!")
+
+
+#%%
+
+#Exercício Python 48: Faça um programa que calcule a soma entre todos os números que são múltiplos de três
+#e que se encontram no intervalo de 1 até 500.
+
