@@ -48,3 +48,9 @@ for c in range(1, 501, 2):
         soma += c 
         cont += 1
 print(f"A soma de todos os {cont} valores solicitados é {soma}")
+
+#%%
+
+#Exercício Python 49: Refaça o DESAFIO 9, mostrando a tabuada de um número que o usuário escolher, 
+#só que agora utilizando um laço for.
+
