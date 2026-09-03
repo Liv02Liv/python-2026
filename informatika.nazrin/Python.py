@@ -40,3 +40,8 @@ if x + y > 10:
         print(2)
 else:
     print(3)
+
+#%%
+
+for i in range(2, 9, 2):
+    print(i, end= ' ')
