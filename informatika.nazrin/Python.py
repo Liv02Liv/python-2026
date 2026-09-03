@@ -10,3 +10,12 @@ if a < b:
         print(a - b)
 
 #%%
+
+a = 5
+b = 8
+
+if a > b:
+    m = a
+else:
+    m = b
+print(m)
