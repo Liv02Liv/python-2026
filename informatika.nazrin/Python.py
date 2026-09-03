@@ -19,3 +19,11 @@ if a > b:
 else:
     m = b
 print(m)
+
+#%%
+
+s = 1
+
+for i in range(1, 5):
+    s*=i 
+print(s)
