@@ -27,3 +27,16 @@ s = 1
 for i in range(1, 5):
     s*=i 
 print(s)
+
+#%%
+
+x = 4
+y = 9
+
+if x + y > 10:
+    if y - x > 3:
+        print(1)
+    else:
+        print(2)
+else:
+    print(3)
