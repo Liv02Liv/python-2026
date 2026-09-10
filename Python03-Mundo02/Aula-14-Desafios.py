@@ -1,3 +1,6 @@
+#Nessa aula, vamos continuar a estudar os laços e vamos aprender 
+#a usar a estrutura de repetição while no Python. Por exemplo:
+
 #%%
 # Usando o For
 
@@ -34,3 +37,19 @@ while r == "S":
     r = str(input("Quer continuar? [S/N]")).upper()
     print(n)
 print("Fim!")
+
+#%%
+
+n = 1
+par = impar = 0
+
+while n != 0:
+    n = int(input("Digite um valor: "))
+    if n != 0:
+        if n % 2 == 0:
+            par += 1
+        else:
+            impar += 1
+    print(n)
+
+print(f"Você digitou {par} números pares e {impar} números ímpares!")
