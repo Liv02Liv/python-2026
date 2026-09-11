@@ -45,3 +45,16 @@ else:
 
 for i in range(2, 9, 2):
     print(i, end= ' ')
+
+#%%
+
+a = [234, 345, 21, 2354]
+
+for i in range(0, len(a)):
+    k = a[i]
+    s = 0
+    while k > 0:
+        s = s * 10 + k % 10
+        k = k // 10
+    a[i] = a[i] + s 
+print(a)
