@@ -58,3 +58,14 @@ for i in range(0, len(a)):
         k = k // 10
     a[i] = a[i] + s 
 print(a)
+
+#%%
+
+def f(x):
+    x = x * 2 + d(x)
+    y = d(x) * 2
+    return x + y 
+def d(y):
+    y = y + 8
+    return y 
+print(f(5))
