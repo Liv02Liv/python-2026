@@ -69,3 +69,15 @@ def d(y):
     y = y + 8
     return y 
 print(f(5))
+
+#%%
+
+def fn(a, b):
+    a = a * a + st(a, b)
+    b = st(a, b) + b
+    return a + b 
+def st(m, n):
+    m = m + 15
+    n = m + n 
+    return m + n
+print(fn(4, 6))
