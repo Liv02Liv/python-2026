@@ -111,3 +111,22 @@ df.to_sql("survey_responses", conexao, if_exists="replace", index=False)
 conexao.close()
 
 print("Tabela survey_responses criada com sucesso!")
+
+
+#%%
+
+import sqlite3
+import pandas as pd
+
+# Conecta ao banco existente
+conexao = sqlite3.connect("dados.db")
+
+# Lê o arquivo CSV
+df = pd.read_csv(r"Office_Space\OfficeSpace.csv")
+
+# Cria a tabela e insere os dados
+df.to_sql("employees", conexao, if_exists="replace", index=False)
+
+conexao.close()
+
+print("Tabela employees criada com sucesso!")
