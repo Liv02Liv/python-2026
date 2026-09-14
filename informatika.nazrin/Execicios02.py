@@ -13,3 +13,15 @@ elif score == 100:
 
 else:
     print("Kylian Mbappé")
+
+
+#%%
+
+x = [1, 2, 3]
+y = [4, 5, 6]
+x = y
+
+y.append(7)
+x[0] = 10
+print(x)
+print(y)
