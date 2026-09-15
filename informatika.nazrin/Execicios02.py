@@ -39,3 +39,16 @@ elif len(away) > len(home):
 
 else:
     print("El Classico")
+
+#%%
+
+players = ["Ronaldo", "Messi"]
+
+if players[1] == "Ronaldo":
+    print("CR7")
+
+elif "Messi" in players:
+    print("LM10")
+
+else:
+    print("GOAT")
