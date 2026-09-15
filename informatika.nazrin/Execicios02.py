@@ -25,3 +25,17 @@ y.append(7)
 x[0] = 10
 print(x)
 print(y)
+
+#%%
+
+home = "Barcelona"
+away = "Real Madrid"
+
+if len(home) > len(away):
+    print("Camp Nou")
+
+elif len(away) > len(home):
+    print("Bernabeu")
+
+else:
+    print("El Classico")
