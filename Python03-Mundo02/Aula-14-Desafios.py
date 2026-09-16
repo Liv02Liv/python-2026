@@ -53,3 +53,15 @@ while n != 0:
     print(n)
 
 print(f"Você digitou {par} números pares e {impar} números ímpares!")
+
+#%%
+
+#Exercício Python 57: Faça um programa que leia o sexo de uma pessoa, 
+#mas só aceite os valores ‘M’ ou ‘F’. Caso esteja errado, peça a digitação novamente até ter um valor correto.
+
+print("DESAFIO 057")
+
+sexo = str(input("Informe seu sexo: [M/F] ")).strip().upper()[0]
+while sexo not in "MnFf":
+    sexo = str(input("Dados inválidos, por favor, informe seu sexo: ")).strip().upper()[0]
+print(f"Sexo {sexo} registrado com sucesso!")
