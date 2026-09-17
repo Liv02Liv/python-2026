@@ -52,3 +52,15 @@ elif "Messi" in players:
 
 else:
     print("GOAT")
+
+
+#%%
+
+s = 8
+n = 40
+
+while s + n <= 80:
+    s = s + 6
+    n = n - 3
+
+print(s)
