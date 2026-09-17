@@ -64,3 +64,19 @@ while s + n <= 80:
     n = n - 3
 
 print(s)
+
+#%%
+
+a = "Hello, World!"
+b = a.split(',')
+c = b[1][1:]
+d = b[0].replace('H', 'J')
+e = d + ' ' + c + '!'
+i = 0
+
+while i < len(e):
+    if e[i] == 'l':
+        print('y', end= ' ')
+    else:
+        print(e[i], end= ' ')
+    i = i + 1
