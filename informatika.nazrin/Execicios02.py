@@ -93,3 +93,18 @@ print(x)
 print(y)
 print(x is y)
 print(x == y)
+
+
+#%%
+
+x = [1, 2, 3]
+y = x
+y.append(4)
+x = x + [5]
+z = y[:2]
+y[0] = 10
+z.append(6)
+
+print(x)
+print(y)
+print(z)
