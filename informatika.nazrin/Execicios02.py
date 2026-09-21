@@ -80,3 +80,16 @@ while i < len(e):
     else:
         print(e[i], end= ' ')
     i = i + 1
+
+
+#%%
+
+x = [1, 2, 3]
+y = x
+x.append(4)
+y = y + [5]
+
+print(x)
+print(y)
+print(x is y)
+print(x == y)
