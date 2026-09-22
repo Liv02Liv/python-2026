@@ -108,3 +108,10 @@ z.append(6)
 print(x)
 print(y)
 print(z)
+
+
+#%%
+
+cart = ("Shoes", "Bag", "Watch")
+a, b, c = cart 
+print(b)
