@@ -115,3 +115,12 @@ print(z)
 cart = ("Shoes", "Bag", "Watch")
 a, b, c = cart 
 print(b)
+
+#%%
+
+fruits = ["apple", "banana"]
+res = []
+
+for f in fruits:
+    res.append(f[:2])
+print("-".join(res))
