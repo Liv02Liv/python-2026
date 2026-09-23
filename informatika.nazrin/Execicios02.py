@@ -124,3 +124,13 @@ res = []
 for f in fruits:
     res.append(f[:2])
 print("-".join(res))
+
+
+#%%
+
+meals = ["Maggi", "Pizza", "Sandwich"]
+
+for x in meals:
+    meals.remove(x)
+
+print(meals)
