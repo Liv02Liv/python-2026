@@ -134,3 +134,13 @@ for x in meals:
     meals.remove(x)
 
 print(meals)
+
+
+#%%
+
+team = "Barcelona"
+
+if "barca" in team.lower():
+    print(team[:5])
+else:
+    print(team[3:])
