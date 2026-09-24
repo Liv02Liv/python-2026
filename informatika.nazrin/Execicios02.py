@@ -166,3 +166,12 @@ elif c > a:
     print("U")
 else:
     print("P")
+
+
+#%%
+
+clash = ["Barcelona", "Real Madrid"]
+
+for i in range(len(clash)):
+    if "Madrid" in clash[i]:
+        print(clash[i][5:9])
