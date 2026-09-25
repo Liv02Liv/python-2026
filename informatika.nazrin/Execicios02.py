@@ -183,3 +183,14 @@ def topla (x, y):
     return x + y
 print("Tupla = ", topla(5, 4))
 print("Tupla = ", topla(10, 4))
+
+
+#%%
+
+s = 100
+n = 300
+
+while s + n < 500:
+    s = s + 40
+    n = n - 20
+print(s)
