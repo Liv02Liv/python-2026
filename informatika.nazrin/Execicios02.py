@@ -175,3 +175,11 @@ clash = ["Barcelona", "Real Madrid"]
 for i in range(len(clash)):
     if "Madrid" in clash[i]:
         print(clash[i][5:9])
+
+
+#%%
+
+def topla (x, y):
+    return x + y
+print("Tupla = ", topla(5, 4))
+print("Tupla = ", topla(10, 4))
