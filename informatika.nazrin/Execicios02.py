@@ -194,3 +194,9 @@ while s + n < 500:
     s = s + 40
     n = n - 20
 print(s)
+
+#%%
+
+lista = [1, 2, 3]
+lista.append([4, 5])
+print(len(lista))
