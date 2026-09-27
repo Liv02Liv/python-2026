@@ -13,3 +13,10 @@ def check_sentence_ending(sentence):
     return "." in sentence
 
 print(check_sentence_ending("I like to hike, bake, and read."))
+
+#%%
+
+def clean_up_spacing(sentence):
+    return sentence.strip()
+
+print(clean_up_spacing(" I like to go on hikes with my dog.  "))
