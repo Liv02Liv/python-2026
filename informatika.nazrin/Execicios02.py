@@ -233,3 +233,16 @@ def k(x, y):
 
 r = k(1, 2)
 print(r)
+
+#%%
+
+nums = [22, 35, 77, 120, 4, 190, 2]
+m = 3 * min(nums) + 2 * max(nums)
+s = 0
+
+while m > 0:
+    k = m % 10
+    m = m // 10
+    s = s + k * 2
+
+print(s)
