@@ -200,3 +200,22 @@ print(s)
 lista = [1, 2, 3]
 lista.append([4, 5])
 print(len(lista))
+
+#%%
+
+def f(a):
+    if a < 2:
+        return 1
+    return f(a - 1) * a
+
+def f2(b):
+    if b < 3:
+        return 1
+    return f2(b - 1) + f2(b - 2)
+
+i = 1
+s = 0
+while i <= 5:
+    s = s + f(f2(i))
+    i = i + 1
+print(s)
