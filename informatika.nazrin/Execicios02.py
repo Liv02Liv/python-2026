@@ -219,3 +219,17 @@ while i <= 5:
     s = s + f(f2(i))
     i = i + 1
 print(s)
+
+#%%
+
+def f(a, b):
+    c = a ** b
+    return c
+
+def k(x, y):
+    x = f(x, s + 3)
+    y = f(y, y + 5)
+    return x + y
+
+r = k(1, 2)
+print(r)
