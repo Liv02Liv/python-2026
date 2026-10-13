@@ -246,3 +246,31 @@ while m > 0:
     s = s + k * 2
 
 print(s)
+
+#%%
+
+def H(n):
+    p = 1
+    while n != 0:
+        if n % 10 != 0:
+            p = p * (n % 10)
+        n = n // 10
+    return p 
+x = H(777)
+i = 0
+while x > 10:
+    x = H(x)
+    i = i + 1
+print(i)
+
+#%%
+
+def fuck1(x, y):
+    a = fuck2(x, y) + y * 2
+    b = fuck2(x, y) + x
+    return a + b
+def fuck2(d, f):
+    d = 3 + d * 2
+    f = d + f
+    return d + f 
+print(fuck1(3, 6))
